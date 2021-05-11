@@ -1,2 +1,2 @@
 # CPP-Snippets
-My C++ snippets for competetive programming
+My C++ snippets for competitive programming
