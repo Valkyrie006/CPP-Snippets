@@ -85,6 +85,7 @@ struct segtree {
 		return combine(query(l, r, 2*x+1, lx, m), query(l, r, 2*x+2, m, rx));
 	}
 	
+    // Gives for [l, r-1]
 	// change this when min and count in range int query(int l, int r) -> item query(int l, int r)
 	int query(int l, int r) {
 		return query(l, r, 0, 0, size);
