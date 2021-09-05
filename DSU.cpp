@@ -5,7 +5,7 @@ class DSU {
     public :
         DSU(int x) {
             n = x;
-            par.resize(n + 1), siz.resize(n + 1);
+            par.assign(n + 1, 0), siz.assign(n + 1, 0);
             for (int i = 0; i <= n; i++)
                 par[i] = i, siz[i] = 1;
         }
